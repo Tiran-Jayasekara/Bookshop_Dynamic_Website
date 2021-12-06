@@ -1,0 +1,346 @@
+* {margin: 0; padding: 0;}
+
+.clearfix { overflow: auto; }
+
+a {text-decoration: none;}
+
+@media(min-width: 1201px){
+	nav ul li a {
+	color: white;
+	font-size: 18px;
+	font-style: inherit;
+	text-transform: uppercase;
+	margin-left: 80px;
+	margin-right: 80px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	display: inline-block;
+
+}
+.comment {
+	margin-top: 50px;
+	width: 	1000px;
+	background: #F5F5F5;
+	border-radius: 20px;
+	margin-left: 280px;
+	border: 3px solid maroon;
+
+} 
+.comment h1 {
+	text-align: center;
+	color: maroon;
+	margin-top: 20px;
+	background:;
+}
+.delete {
+	width: 1000px;
+	float: left;
+	margin-left: 650px;
+	margin-bottom: 30px;
+
+}
+.delete input {
+	margin-top: 40px;
+	padding:5px;
+	border-radius: 5px;
+	color: red;
+	margin-bottom: 10px;
+}
+.delete	button {
+	margin-left: 120px;
+	padding: 5px;
+	border-radius: 5px;
+	background: maroon;
+	color: white;
+
+}
+.tab {
+	margin-top: 20px;
+	width: 800px;
+	margin-left: 100px;
+	margin-bottom: 40px;
+	
+}
+.tab th {
+	color: ;
+	height: 50px;
+	padding: 6px;
+	padding-left: 20px;
+	font-size: 30px;
+	text-align:;
+	margin-top: 20px;
+	border: 2px solid orange;
+	border-radius: 5px;
+}
+.tab td {
+	padding-left: 20px;
+	padding-right: 10px;
+	height: 50px;
+	margin-left: 100px;
+	font-size: 20px;
+	margin-top: 50px;
+	border: 1px solid blue;
+	border-radius: 10px;
+
+}
+}
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 1200px){
+	nav ul li a {
+	color: white;
+	font-size: 12px;
+	font-style: inherit;
+	text-transform: uppercase;
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	display: inline-block;
+
+}
+.comment {
+	margin-top: 50px;
+	width: 	750px;
+	background: #F5F5F5;
+	border-radius: 20px;
+	margin-left: 130px;
+	border: 3px solid maroon;
+
+} 
+.comment h1 {
+	text-align: center;
+	color: maroon;
+	margin-top: 20px;
+	background:;
+}
+.delete {
+	width: 750px;
+	float: left;
+	margin-left: 400px;
+	margin-bottom: 30px;
+
+}
+.delete input {
+	margin-top: 40px;
+	padding:5px;
+	border-radius: 5px;
+	color: red;
+	margin-bottom: 10px;
+}
+.delete	button {
+	margin-left: 120px;
+	padding: 5px;
+	border-radius: 5px;
+	background: maroon;
+	color: white;
+
+}
+.tab {
+	margin-top: 20px;
+	width: 750px;
+	margin-left: 100px;
+	margin-bottom: 40px;
+	margin-right: 100px;
+	
+}
+.tab th {
+	color: ;
+	height: 50px;
+	padding: 6px;
+	padding-left: 20px;
+	font-size: 30px;
+	text-align:;
+	margin-top: 20px;
+	border: 2px solid orange;
+	border-radius: 5px;
+}
+.tab td {
+	padding-left: 20px;
+	padding-right: 10px;
+	height: 50px;
+	margin-left: 100px;
+	font-size: 20px;
+	margin-top: 50px;
+	border: 1px solid blue;
+	border-radius: 10px;
+
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+	
+.wrapper{
+	margin: 0 auto;
+	background-image: url("../img/book.jpg");
+	background-size: 100% 720px;
+}
+.top-bar {
+	background: navy;
+	background-size: 100% 720px;
+	padding: 15px; 
+}
+
+.top-bar-links {
+	float: left;
+}
+.top-bar-links ul {
+	margin: 15px;
+	list-style: none;
+}
+.top-bar-links ul li {
+	padding: 0 10px;
+	display: inline-block;
+	border-right: 1px solid white;
+}
+.top-bar-links ul li:last-child {
+	border: 0;
+}
+
+
+.top-bar-links ul li a {
+	color: white;
+}
+.top-bar-links ul li a:hover {
+	color: red;
+}
+
+
+.site-search {
+	margin: 15px;
+	margin-top: 10px;
+	float: right;
+	background: white;
+	border-radius: 10px;
+	padding-left: 12px;
+
+}
+.site-search input {
+	border:0;
+	float: left;
+	padding: 6px;
+	padding-left: 20px;
+}
+.site-search button	{
+	background: url(../img/icons/search.png); 
+	width: 18px;
+	height: 18px;
+	float: right;
+	border: 0;
+	margin-top: 5px;
+	margin-right: 3px;
+}
+header .logo {
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-bottom: 20px ;
+	float: left;
+
+}
+header .logo img{
+	width: 140px;
+	margin-left: 40px;
+}
+
+
+header .logo h1 { 
+	font-size: 50px;
+	font-weight: normal;
+	letter-spacing: -1px;
+	font-variant: small-caps;
+	font-style: inherit;
+	margin-left: 20px;
+}
+nav {
+	margin-top: 0px;
+	background: #000;
+	background: linear-gradient(#0d0d0d, #404040, #0d0d0d);
+	text-align: center;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+nav ul {
+	list-style: none;
+}
+
+nav ul li {
+	display: inline;
+}
+
+
+.background{
+	margin: 0 auto;
+	background-image: url("../img/book.jpg");
+	background-size: 100% 720px;
+	padding-top: 1px;
+}
+
+nav ul li a:hover {
+	color: red;
+}
+
+.back {
+	background-image: url("../img/book.jpg");
+	padding-top: 20px;
+	background-size: 100% 720px;
+	padding-bottom: 70px;
+
+}
+
+
+.footer {
+	margin-top: 20px;
+	padding-top: 20px;
+	background: #eee;
+	border-radius: 10px;
+}
+.footer h5 {
+	margin-left: 70px;
+	float: left;
+	font-size: 20px;
+	margin-bottom: 20px;
+	font-weight: normal;
+
+}
+.footer h6 {
+	float: right;
+	font-size: 20px;
+	margin-right: 70px;
+	font-weight: normal;
+
+}
+
+
+
+.head {
+	margin-top: 20px;
+	width: 100px;
+	float: left;
+	font-family: inherit;
+	font-size: 	10px;
+	font-weight: normal;
+	text-align: left;
+
+}
+
+.delete button:hover{
+	background: orange;
+}

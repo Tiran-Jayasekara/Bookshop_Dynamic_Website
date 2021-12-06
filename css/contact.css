@@ -1,0 +1,387 @@
+* {margin: 0; padding: 0;}
+
+.clearfix { overflow: auto; }
+
+a {text-decoration: none;}
+
+
+
+
+
+
+@media(min-width: 1201px){
+	nav ul li a {
+	color: white;
+	font-size: 18px;
+	font-style: inherit;
+	text-transform: uppercase;
+	margin-left: 80px;
+	margin-right: 80px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	display: inline-block;
+
+}
+.login {
+	margin-top: 50px;
+	width: 	1000px;
+	background: #F5F5F5;
+	border-radius: 20px;
+	opacity: 10;
+	margin-left: 280px;
+	border: 3px solid maroon;
+}
+.loginform {
+	margin: 15px;
+	margin-left: 80px;
+	width: 	400px;
+	float: 	left;
+	border: 3px solid orange;
+	border-radius: 20px;
+
+	
+}
+.contactus {
+		float: 	left;
+		margin-top: 100px;
+		margin-left: 100px;	
+}
+.contact input,textarea{
+	width: 	300px;
+	background: #DCDCDC;
+	margin-left: 50px;
+	padding-right: 200px;
+	margin-bottom: 10px;
+	padding:5px; 	
+	padding-bottom: 10px:
+	border: none;
+	border-width: 0px;
+	font-family: inherit;
+	font-style: 18px;
+	border-radius: 10px;
+	
+}
+.socialmedia { 
+	float: right; 
+	margin-top: 50px;
+	margin-right: 20px;
+}
+
+.socialmedia ul { 
+	list-style: none 
+}
+
+.socialmedia ul li { 
+	display: inline 
+}
+
+.socialmedia ul li a {
+	margin-left: 5px;
+	padding: 6px;
+	background: #444;
+	color: #fff;
+	display: inline-block;
+	border-radius: 20px;
+}
+
+.socialmedia ul li a:hover {
+	background: blue;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 1200px){
+	nav ul li a {
+	color: white;
+	font-size: 12px;
+	font-style: inherit;
+	text-transform: uppercase;
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	display: inline-block;
+
+}
+.login {
+	margin-top: 50px;
+	width: 	750px;
+	background: #F5F5F5;
+	border-radius: 20px;
+	opacity: 10;
+	margin-left: 130px;
+	border: 3px solid maroon;
+}
+.loginform {
+	margin: 15px;
+	margin-left: 20px;
+	width: 	350px;
+	float: 	left;
+	border: 3px solid orange;
+	border-radius: 20px;
+
+	
+}
+.contactus {
+	width: 300px;
+		float: 	left;
+		margin-top: 100px;
+		margin-left: 40px;	
+}
+.contact input,textarea{
+	width: 	250px;
+	background: #DCDCDC;
+	margin-left: 50px;
+	padding-right: 200px;
+	margin-bottom: 10px;
+	padding:5px; 	
+	padding-bottom: 10px:
+	border: none;
+	border-width: 0px;
+	font-family: inherit;
+	font-style: 18px;
+	border-radius: 10px;
+	
+}
+.socialmedia { 
+	float: right; 
+	margin-top: 50px;
+	margin-right: 60px;
+}
+
+.socialmedia ul { 
+	list-style: none 
+}
+
+.socialmedia ul li { 
+	display: inline 
+}
+
+.socialmedia ul li a {
+	margin-left: 5px;
+	padding: 6px;
+	background: #444;
+	color: #fff;
+	display: inline-block;
+	border-radius: 20px;
+}
+
+.socialmedia ul li a:hover {
+	background: blue;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.wrapper{
+	margin: 0 auto;
+	background-image: url("../img/book.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 720px;
+}
+.top-bar {
+	background: navy;
+	background-size: 100% 720px;
+	padding: 15px; 
+}
+.msg {
+	margin-top: 150px;
+	margin-left: 40px;
+	font-size: 20px;
+	font-style: inherit;
+	color: red;
+}
+.top-bar-links {
+	float: left;
+}
+.top-bar-links ul {
+	margin: 15px;
+	list-style: none;
+}
+.top-bar-links ul li {
+	padding: 0 10px;
+	display: inline-block;
+	border-right: 1px solid white;
+}
+.top-bar-links ul li:last-child {
+	border: 0;
+}
+
+
+.top-bar-links ul li a {
+	color: white;
+}
+.top-bar-links ul li a:hover {
+	color: red;
+}
+
+
+.site-search {
+	margin: 15px;
+	margin-top: 10px;
+	float: right;
+	background: white;
+	border-radius: 10px;
+	padding-left: 12px;
+
+}
+.site-search input {
+	border:0;
+	float: left;
+	padding: 6px;
+	padding-left: 20px;
+}
+.site-search button	{
+	background: url(../img/icons/search.png); 
+	width: 18px;
+	height: 18px;
+	float: right;
+	border: 0;
+	margin-top: 5px;
+	margin-right: 3px;
+}
+header .logo {
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-bottom: 20px ;
+	float: left;
+
+}
+header .logo img{
+	width: 140px;
+	margin-left: 40px;
+}
+
+
+header .logo h1 { 
+	font-size: 50px;
+	font-weight: normal;
+	letter-spacing: -1px;
+	font-variant: small-caps;
+	font-style: inherit;
+	margin-left: 20px;
+}
+nav {
+	margin-top: 0px;
+	background: #000;
+	background: linear-gradient(#0d0d0d, #404040, #0d0d0d);
+	text-align: center;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+nav ul {
+	list-style: none;
+}
+
+nav ul li {
+	display: inline;
+}
+
+
+
+nav ul li a:hover {
+	color: red;
+}
+
+
+.loginform:hover{
+	color: red;
+}
+.loginform h4 {
+	font-family: inherit;
+	font-size: 	30px;
+	text-align: center;
+	margin-bottom: 30px;
+	margin-top: 30px;
+	font-weight: normal;
+}
+
+.contactus h3 {
+	font-weight: normal;
+	font-style: inherit;
+	font-size: 30px;
+	text-align: center;
+	margin-bottom: 50px; 	
+}
+.contactus p {
+	font-style: inherit;
+	font-size: 20px;
+	text-align: center;
+}
+
+
+.back {
+	background-image: url("../img/book.jpg");
+	padding-top: 20px;
+	background-size: 100% 720px;
+	padding-bottom: 70px;
+}
+.contact button {
+	margin-left: 50px;
+	background: #DCDCDC;
+	color:;
+	border: none;
+	border-radius: 5px;
+	padding: 10px 20px;
+	font-family: inherit;
+	font-size: 	16px;
+	margin-bottom: 30px;
+}
+.contact button:hover {
+	background: red;
+	color: white;
+} 
+.footer {
+	margin-top: 0px;
+	padding-top: 20px;
+	background: #eee;
+	border-radius: 10px;
+	border: 3px solid orange;
+}
+.footer h5 {
+	margin-left: 70px;
+	float: left;
+	font-size: 20px;
+	margin-bottom: 20px;
+	font-weight: normal;
+
+}
+.footer h6 {
+	float: right;
+	font-size: 20px;
+	margin-right: 70px;
+	font-weight: normal;
+
+}
+.footer a:hover {
+	color: red;
+}
+
+

@@ -1,0 +1,394 @@
+* {margin: 0; padding: 0;}
+
+.clearfix { overflow: auto; }
+
+a {text-decoration: none; color: red;}
+
+.top-bar {
+	background: navy;
+	background-size: 100% 720px;
+	padding: 15px; 
+}
+@media (max-width: 1200px){
+p {margin-top: 5px; margin-bottom: 10px; font-size: 10px; color: #444;}
+.wrapper{
+	margin: 0 auto;
+	background-image: url("../img/book.jpg");
+	background-size: 100% 720px;
+}
+.top-bar {
+	background: navy;
+	background-size: 100% 720px;
+	padding: 15px; 
+}
+	.top-bar-links ul {
+	margin: 10px;
+	list-style: none;
+	font-size: 10px;
+}
+nav ul li a {
+	color: white;
+	font-size: 12px;
+	font-style: inherit;
+	text-transform: uppercase;
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	display: inline-block;
+
+}
+.homecontent {
+	margin-top: 122px;
+	background-size: 100% 720px; 
+	background: #eee;
+	border-radius: 10px;
+}
+.home-col {
+	height: 500px;
+	background: #eee;
+	border: 3px solid orange;
+	width: 700px;
+	margin:26px;
+	float: left;
+	border-radius: 20px;
+	margin-left: 120px;
+}
+.home-col h2 {
+	font-size: 40px;
+	text-align: center;
+	margin-top: 30px;
+	letter-spacing: -1px;
+	font-variant: small-caps;
+	margin-bottom: 30px;
+}
+.home-col h2:hover{
+	color: orange;
+}
+.home-col p {
+	
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.home-col img {
+	width: 300px;
+	margin-left: 15px;
+}
+.home-col h2 {
+	margin-bottom: 50px;
+}
+.home-col a {
+	float: right;
+	margin-bottom: 10px;
+}
+}
+
+@media (min-width: 1001px){
+p {margin-top: 10px; margin-bottom: 15px; font-size: 16px; color: #444;}
+.wrapper{
+	margin: 0 auto;
+	background-image: url("../img/book.jpg");
+	background-size: 100% 720px;
+}
+.top-bar {
+	background: navy;
+	background-size: 100% 720px;
+	padding: 15px; 
+}
+	.top-bar-links ul {
+	margin: 15px;
+	list-style: none;
+	font-size: 20px;
+}
+	nav ul li a {
+	color: white;
+	font-size: 18px;
+	font-style: inherit;
+	text-transform: uppercase;
+	margin-left: 80px;
+	margin-right: 80px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	display: inline-block;
+
+}
+	.homecontent {
+	margin-top: 110px;
+	background-size: 100% 720px; 
+	background: #eee;
+	border-radius: 10px;
+}
+.home-col {
+	height: 550px;
+	background: #eee;
+	border: 3px solid orange;
+	width: 700px;
+	margin:26px;
+	float: left;
+	border-radius: 20px;
+}
+.intro { 
+	background-size: 100% 720px; 
+	margin: 15px;
+	margin-left: 40px;
+
+ }
+ .homecontent {
+	margin-top: 122px;
+	background-size: 100% 720px; 
+	background: #eee;
+	border-radius: 10px;
+}
+.home-col {
+	height: 550px;
+	background: #eee;
+	border: 3px solid orange;
+	width: 700px;
+	margin:26px;
+	float: left;
+	border-radius: 20px;
+}
+.home-col h2 {
+	font-size: 40px;
+	text-align: center;
+	margin-top: 30px;
+	letter-spacing: -1px;
+	font-variant: small-caps;
+	margin-bottom: 30px;
+}
+.home-col h2:hover{
+	color: orange;
+}
+.home-col p {
+	
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.home-col img {
+	width: 300px;
+	margin-left: 15px;
+}
+.home-col h2 {
+	margin-bottom: 50px;
+}
+.home-col a {
+	float: right;
+	margin-bottom: 10px;
+}
+}
+/* @*/media seen eka
+
+
+.top-bar-links {
+	float: left;
+}
+
+.top-bar-links ul li {
+	padding: 0 10px;
+	display: inline-block;
+	border-right: 1px solid white;
+}
+.top-bar-links ul li:last-child {
+	border: 0;
+}
+
+
+.top-bar-links ul li a {
+	color: white;
+}
+.top-bar-links ul li a:hover {
+	color: red;
+}
+
+
+.site-search {
+	margin: 15px;
+	margin-top: 10px;
+	float: right;
+	background: white;
+	border-radius: 10px;
+	padding-left: 12px;
+
+}
+.site-search input {
+	border:0;
+	float: left;
+	padding: 6px;
+	padding-left: 20px;
+}
+.site-search button	{
+	background: url(../img/icons/search.png); 
+	width: 18px;
+	height: 18px;
+	float: right;
+	border: 0;
+	margin-top: 5px;
+	margin-right: 3px;
+}
+
+header .logo {
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-bottom: 20px ;
+	float: left;
+}
+header .logo img{
+	width: 140px;
+	margin-left: 40px;
+}
+header .logo h1 { 
+	font-size: 50px;
+	font-weight: normal;
+	letter-spacing: -1px;
+	font-variant: small-caps;
+	font-style: inherit;
+	margin-left: 20px;
+}
+header .logo h2{ 
+	font-size: 30px;
+	font-weight: normal;
+	letter-spacing: -1px;
+	font-variant: small-caps;
+	margin-left: 20px;
+}
+header .socialmedia { 
+	float: right; 
+	margin-top: 50px;
+	margin-right: 50px;
+}
+
+header .socialmedia ul { 
+	list-style: none 
+}
+
+header .socialmedia ul li { 
+	display: inline;
+	margin-left: 3px;
+}
+
+header .socialmedia ul li a {
+	margin-left: 5px;
+	padding: 10px;
+	background: #444;
+	color: #fff;
+	display: inline-block;
+	border-radius: 20px;
+}
+
+header .socialmedia ul li a:hover {
+	background: orange;
+}
+nav {
+	margin-top: 0px;
+	background: #000;
+	background: linear-gradient(#0d0d0d, #404040, #0d0d0d);
+	text-align: center;
+	border-radius: 5px;
+	padding: 8px;
+}
+
+nav ul {
+	list-style: none;
+}
+
+nav ul li {
+	display: inline;
+}
+
+
+
+nav ul li a:hover {
+	color: red;
+}
+.intro { 
+	background-size: 100% 720px; 
+	margin: 15px;
+
+ }
+
+.introimage {
+	margin-top: 50px;
+	float: left;
+}
+
+.introtext {
+	width: 500px;
+	float: right;
+	margin-right: 60px;
+
+}
+.introtext h1 {
+	font-weight: normal;
+	margin-top: 50px;
+	font-size: 120px;
+	color: maroon;
+	letter-spacing: -1px;
+	font-variant: small-caps;
+
+}
+.introtext h2 {
+	font-weight: normal;
+	margin-top: 30px;
+	font-size: 50px;
+	letter-spacing: -1px;
+	font-variant: small-caps;
+}
+
+.introtext h1:hover{
+	color: orange;
+}
+.introtext h2:hover{
+	color: orange;
+}
+
+.introtext p {
+	font-size: 18px;
+}
+
+.introtext a {
+	text-transform: uppercase;
+	color: red;
+	float: right;
+}
+
+.service {
+	margin-top: 25px;
+}
+.service img {
+	width: 74px;
+	height: 74px;
+	float: left;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+.service h3 {
+	letter-spacing: -1px;
+	font-variant: small-caps;
+	font-size: 20px;
+	margin-left: 20px; 
+}
+.service h3:hover{
+	color: orange;
+}
+.footer {
+	margin-top: 20px;
+	padding-top: 20px;
+	background: #eee;
+	border-radius: 10px;
+	border: 3px solid orange;
+}
+.footer h5 {
+	margin-left: 70px;
+	float: left;
+	font-size: 20px;
+	margin-bottom: 20px;
+	font-weight: normal;
+
+}
+.footer h6 {
+	float: right;
+	font-size: 20px;
+	margin-right: 70px;
+	font-weight: normal;
+
+}

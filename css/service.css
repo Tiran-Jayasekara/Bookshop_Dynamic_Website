@@ -1,0 +1,331 @@
+* {margin: 0; padding: 0;}
+
+.clearfix { overflow: auto; }
+
+a {text-decoration: none;}
+
+.wrapper{
+	margin: 0 auto;
+	background-image: url("../img/book.jpg");
+	/*background-repeat: no-repeat;*/
+	background-size: 100% 720px;
+}
+@media (max-width: 1200px){
+	.top-bar-links ul {
+	margin: 10px;
+	list-style: none;
+	font-size: 10px;
+}
+nav ul li a {
+	color: white;
+	font-size: 12px;
+	font-style: inherit;
+	text-transform: uppercase;
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	display: inline-block;
+
+}
+.printer {
+	
+	margin-left: 120px;
+	width: 750px;
+	height: 180px;
+	background: #eee;
+	border-radius: 20px;
+	margin-top: 50px;
+	border: 3px solid orange;
+}
+.img {
+	width: 250px;
+	background:;
+	float: left;
+}
+.para {
+	width: 300px;
+	background:;
+	float: right;
+	margin-top: 30px;
+	margin-right: 80px;
+}
+.para h2 {
+	text-align: center;
+	font-style: inherit;
+	font-size: 30px;
+	margin-right: 30px;
+	color: maroon;
+}
+.para h2:hover {
+	color: orange;
+}
+.para p:hover {
+	color:;
+}
+.para p{
+	margin-top: 6px;
+	font-style: inherit;
+	font-size: 15px;
+}
+.img img {
+	width: 180px;
+	height: 130px;
+	margin: 10px;
+	margin-left: 60px;
+	margin-top: 25px;
+}
+.footer {
+	width: 750px;
+	border: 3px solid orange;
+	margin-top: 20px;
+	padding-top: 20px;
+	background: #eee;
+	border-radius: 20px;
+	margin-left: 120px;
+
+}
+.footer h5 {
+	margin-left: 70px;
+	float: left;
+	font-size: 15px;
+	margin-bottom: 20px;
+	font-weight: normal;
+	
+}
+.footer h6 {
+	float: right;
+	font-size: 15px;
+	margin-right: 70px;
+	font-weight: normal;
+
+}
+
+}
+
+
+
+
+
+
+
+@media (min-width: 1201px){
+	.top-bar-links ul {
+	margin: 15px;
+	list-style: none;
+	font-size: 20px;
+}
+	nav ul li a {
+	color: white;
+	font-size: 18px;
+	font-style: inherit;
+	text-transform: uppercase;
+	margin-left: 80px;
+	margin-right: 80px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	display: inline-block;
+
+}
+	.homecontent {
+	margin-top: 110px;
+	background-size: 100% 720px; 
+	background: #eee;
+	border-radius: 10px;
+}
+.home-col {
+	height: 550px;
+	background: #eee;
+	border: 3px solid orange;
+	width: 700px;
+	margin:26px;
+	float: left;
+	border-radius: 20px;
+}
+.intro { 
+	background-size: 100% 720px; 
+	margin: 15px;
+	margin-left: 40px;
+
+ }.printer {
+	width: 1000px;
+	height: 200px;
+	background: #eee;
+	margin-left: 250px;
+	border-radius: 20px;
+	margin-top: 50px;
+	border: 3px solid orange;
+}
+.img {
+	width: 500px;
+	background:;
+	float: left;
+}
+.para {
+	width: 450px;
+	background:;
+	float: right;
+	margin-top: 30px;
+	margin-right: 50px;
+}
+.para h2 {
+	text-align: center;
+	font-style: inherit;
+	font-size: 40px;
+	margin-right: 70px;
+	color: maroon;
+}
+.para h2:hover {
+	color: orange;
+}
+.para p:hover {
+	color:;
+}
+.para p{
+	margin-top: 10px;
+	font-style: inherit;
+	font-size: 20px;
+}
+.img img {
+	width: 200px;
+	height: 150px;
+	margin: 20px;
+	margin-left: 100px;
+	margin-top: 25px;
+}
+.footer {
+	margin-top: 20px;
+	padding-top: 20px;
+	background: #eee;
+	border-radius: 10px;
+}
+.footer h5 {
+	margin-left: 70px;
+	float: left;
+	font-size: 20px;
+	margin-bottom: 20px;
+	font-weight: normal;
+
+}
+.footer h6 {
+	float: right;
+	font-size: 20px;
+	margin-right: 70px;
+	font-weight: normal;
+
+}
+
+}
+	
+
+.top-bar {
+	background: navy;
+	background-size: 100% 720px;
+	padding: 15px; 
+}
+.top-bar-links {
+	float: left;
+}
+.top-bar-links ul {
+	margin: 15px;
+	list-style: none;
+}
+.top-bar-links ul li {
+	padding: 0 10px;
+	display: inline-block;
+	border-right: 1px solid white;
+}
+.top-bar-links ul li:last-child {
+	border: 0;
+}
+
+
+.top-bar-links ul li a {
+	color: white;
+}
+.top-bar-links ul li a:hover {
+	color: red;
+}
+
+
+.site-search {
+	margin: 15px;
+	margin-top: 10px;
+	float: right;
+	background: white;
+	border-radius: 10px;
+	padding-left: 12px;
+
+}
+.site-search input {
+	border:0;
+	float: left;
+	padding: 6px;
+	padding-left: 20px;
+}
+.site-search button	{
+	background: url(../img/icons/search.png); 
+	width: 18px;
+	height: 18px;
+	float: right;
+	border: 0;
+	margin-top: 5px;
+	margin-right: 3px;
+}
+header .logo {
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-bottom: 20px ;
+	float: left;
+
+}
+header .logo img{
+	width: 140px;
+	margin-left: 40px;
+}
+
+
+header .logo h1 { 
+	font-size: 50px;
+	letter-spacing: -1px;
+	font-variant: small-caps;
+	font-style: inherit;
+	margin-left: 20px;
+	color: maroon;
+}
+.logo h1:hover{
+	color: orange;
+}
+nav {
+	margin-top: 0px;
+	background: #000;
+	background: linear-gradient(#0d0d0d, #404040, #0d0d0d);
+	text-align: center;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+nav ul {
+	list-style: none;
+}
+
+nav ul li {
+	display: inline;
+}
+
+
+nav ul li a:hover {
+	color: red;
+}
+
+
+/*.bac {
+	background-image: url("../img/book.jpg");
+	padding-top: 20px;
+	background-size: 100% 720px;
+	padding-bottom: 0px;
+} */
+
+
+
+
